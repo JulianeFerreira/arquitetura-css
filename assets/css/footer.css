@@ -1,0 +1,11 @@
+.rodape {
+    background-color: #C4C4C4;
+    height: 108px;
+    text-align: center;
+}
+
+.rodape__contato {
+    color: #ffffff;
+    font-size: 1.5rem;
+    padding-top: 2.5rem;
+}

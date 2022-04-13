@@ -1,0 +1,33 @@
+.sobre {
+    text-align: center;
+    padding: 2.5rem;
+}
+
+.sobre__titulo {
+    color: #8D0606;
+    font-family: Pacifico, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.sobre__descricao {
+    color: #8C8888;
+    font-weight: 300;
+}
+
+@media screen and (min-width: 0) {
+    .sobre__titulo {
+        font-size: 2.0rem;
+    }
+    .sobre__descricao {
+        font-size: 1.0rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sobre__titulo {
+        font-size: 3.0rem;
+    }
+    .sobre__descricao {
+        font-size: 1.4rem;
+    }
+}

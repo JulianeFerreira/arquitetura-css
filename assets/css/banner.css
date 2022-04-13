@@ -1,0 +1,39 @@
+.banner {
+    position: relative;
+}
+
+.banner__imagem {
+    background: url('../img/banner.jpg') no-repeat center / cover;
+    width: 100%;
+}
+
+.banner__titulo {
+    color: #FFFFFF;
+    font-family: Pacifico, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.75);
+    transform: translate(-50%, -50%);
+    top: 50%;
+    width: 100%;
+}
+
+@media screen and (min-width: 0) {
+    .banner__titulo {
+        font-size: 2.0rem;
+    }
+    .banner__imagem {
+         height: calc(80vh - 51px);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner__titulo {
+        font-size: 4.0rem;
+    }
+    .banner__imagem {
+        height: calc(80vh - 72px);
+    }
+}
